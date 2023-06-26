@@ -58,20 +58,30 @@ span{
     color: var(--cor3);
 }
 div.campo{
+    border-radius: 10px;
+    height: 44px;
+    background-color: var(--cor3);
     color: black;
-    height: 32px;
     margin-top: 20px;
 }
 div.campo > span{
+    font-size: 2em;
+    padding: 5px;
     text-align: center;
     color: white;
-    background-color: black;
-    width: 30px;
-    height: 38px;
+    width: 40px;
+    height: 100%;
     border-radius: 4px;
 }
 div.campo input{
-    height:38px;
+    border-radius: 10px;
+    border: 0;
+    height:95%;
+    width: calc(100% - 46px);
+    transform: translateY(-9px);
+}
+form  label{
+    display: none;
 }
 form > input[type=submit]{
     border: 1px solid black;
